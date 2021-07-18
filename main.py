@@ -37,7 +37,7 @@ def theta(t):
         thetas_dots.append(theta_dot)
     return theta
 
-t = 100
+t = 90
 theta(t)
 t_plt = np.arange(0, t+delta_t, delta_t)
 
